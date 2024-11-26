@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Fitpeo Test Suite">
+    <test name="Fitpeo Automation Test Cases">
+        <classes>
+         <class name="Fitpeo.Testcases.TC_navigatetohomepage" />
+           <class name="Fitpeo.Testcases.TC_navigatetorevenuecalculator" />
+               <class name="Fitpeo.Testcases.TC_scrolltoslidersection" />
+                <class name="Fitpeo.Testcases.TC_updateslidervalue" />
+               <class name="Fitpeo.Testcases.TC_updateinputfield" />
+                  <class name="Fitpeo.Testcases.TC_validateslidervalue" />
+                   <class name="Fitpeo.Testcases.TC_selectCPTcodes" />
+                    <class name="Fitpeo.Testcases.TC_validateTotalRecurringReimbursement" />
+        </classes>
+    </test>
+</suite>

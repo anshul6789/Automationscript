@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-26T11:31:02 PST" name="Fitpeo Test Suite" finished-at="2024-11-26T11:33:00 PST" duration-ms="117746">
+    <groups>
+    </groups>
+    <test started-at="2024-11-26T11:31:02 PST" name="Fitpeo Automation Test Cases" finished-at="2024-11-26T11:33:00 PST" duration-ms="117746">
+      <class name="Fitpeo.Testcases.TC_scrolltoslidersection">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Fitpeo.Testcases.TC_scrolltoslidersection@2de23121]" started-at="2024-11-26T11:31:20 PST" name="setup" finished-at="2024-11-26T11:31:26 PST" duration-ms="6449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="scrolltoslidersection()[pri:0, instance:Fitpeo.Testcases.TC_scrolltoslidersection@2de23121]" started-at="2024-11-26T11:31:26 PST" name="scrolltoslidersection" finished-at="2024-11-26T11:31:28 PST" duration-ms="1539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrolltoslidersection -->
+      </class> <!-- Fitpeo.Testcases.TC_scrolltoslidersection -->
+      <class name="Fitpeo.Testcases.TC_selectCPTcodes">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Fitpeo.Testcases.TC_selectCPTcodes@305b7c14]" started-at="2024-11-26T11:32:27 PST" name="setup" finished-at="2024-11-26T11:32:34 PST" duration-ms="7206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SelectCPTCodes()[pri:0, instance:Fitpeo.Testcases.TC_selectCPTcodes@305b7c14]" started-at="2024-11-26T11:32:34 PST" name="SelectCPTCodes" finished-at="2024-11-26T11:32:40 PST" duration-ms="5841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCPTCodes -->
+      </class> <!-- Fitpeo.Testcases.TC_selectCPTcodes -->
+      <class name="Fitpeo.Testcases.TC_validateTotalRecurringReimbursement">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Fitpeo.Testcases.TC_validateTotalRecurringReimbursement@6913c1fb]" started-at="2024-11-26T11:32:40 PST" name="setup" finished-at="2024-11-26T11:32:46 PST" duration-ms="6234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateTotalRecurringReimbursement()[pri:0, instance:Fitpeo.Testcases.TC_validateTotalRecurringReimbursement@6913c1fb]" started-at="2024-11-26T11:32:46 PST" name="validateTotalRecurringReimbursement" finished-at="2024-11-26T11:33:00 PST" duration-ms="13409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTotalRecurringReimbursement -->
+      </class> <!-- Fitpeo.Testcases.TC_validateTotalRecurringReimbursement -->
+      <class name="Fitpeo.Testcases.TC_updateinputfield">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Fitpeo.Testcases.TC_updateinputfield@4988d8b8]" started-at="2024-11-26T11:31:48 PST" name="setup" finished-at="2024-11-26T11:32:04 PST" duration-ms="15797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updatetextfield()[pri:0, instance:Fitpeo.Testcases.TC_updateinputfield@4988d8b8]" started-at="2024-11-26T11:32:04 PST" name="updatetextfield" finished-at="2024-11-26T11:32:12 PST" duration-ms="8332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatetextfield -->
+      </class> <!-- Fitpeo.Testcases.TC_updateinputfield -->
+      <class name="Fitpeo.Testcases.TC_updateslidervalue">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Fitpeo.Testcases.TC_updateslidervalue@63475ace]" started-at="2024-11-26T11:31:28 PST" name="setup" finished-at="2024-11-26T11:31:35 PST" duration-ms="6893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="adjusttheslider()[pri:0, instance:Fitpeo.Testcases.TC_updateslidervalue@63475ace]" started-at="2024-11-26T11:31:35 PST" name="adjusttheslider" finished-at="2024-11-26T11:31:48 PST" duration-ms="13116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adjusttheslider -->
+      </class> <!-- Fitpeo.Testcases.TC_updateslidervalue -->
+      <class name="Fitpeo.Testcases.TC_navigatetohomepage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Fitpeo.Testcases.TC_navigatetohomepage@ae13544]" started-at="2024-11-26T11:31:02 PST" name="setup" finished-at="2024-11-26T11:31:09 PST" duration-ms="7354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigatetohomepage()[pri:0, instance:Fitpeo.Testcases.TC_navigatetohomepage@ae13544]" started-at="2024-11-26T11:31:09 PST" name="navigatetohomepage" finished-at="2024-11-26T11:31:12 PST" duration-ms="2346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatetohomepage -->
+      </class> <!-- Fitpeo.Testcases.TC_navigatetohomepage -->
+      <class name="Fitpeo.Testcases.TC_validateslidervalue">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Fitpeo.Testcases.TC_validateslidervalue@c0c2f8d]" started-at="2024-11-26T11:32:12 PST" name="setup" finished-at="2024-11-26T11:32:21 PST" duration-ms="8684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateslidervalue()[pri:0, instance:Fitpeo.Testcases.TC_validateslidervalue@c0c2f8d]" started-at="2024-11-26T11:32:21 PST" name="validateslidervalue" finished-at="2024-11-26T11:32:27 PST" duration-ms="6370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateslidervalue -->
+      </class> <!-- Fitpeo.Testcases.TC_validateslidervalue -->
+      <class name="Fitpeo.Testcases.TC_navigatetorevenuecalculator">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Fitpeo.Testcases.TC_navigatetorevenuecalculator@22fcf7ab]" started-at="2024-11-26T11:31:12 PST" name="setup" finished-at="2024-11-26T11:31:17 PST" duration-ms="5555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigatetorevenuecalculator()[pri:0, instance:Fitpeo.Testcases.TC_navigatetorevenuecalculator@22fcf7ab]" started-at="2024-11-26T11:31:17 PST" name="navigatetorevenuecalculator" finished-at="2024-11-26T11:31:20 PST" duration-ms="2301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatetorevenuecalculator -->
+      </class> <!-- Fitpeo.Testcases.TC_navigatetorevenuecalculator -->
+    </test> <!-- Fitpeo Automation Test Cases -->
+  </suite> <!-- Fitpeo Test Suite -->
+</testng-results>
