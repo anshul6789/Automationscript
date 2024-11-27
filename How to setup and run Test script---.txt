@@ -1,0 +1,56 @@
+How to setup and run Test script--------------
+1  Prerequisites----
+   Steps to Set JDK Path in System---------------
+
+1. Download and Install JDK
+Download the latest JDK from the Oracle website.
+Install the JDK and note the installation directory (e.g., C:\Program Files\Java\jdk-XX.X.X).
+2. Set JDK Path in Environment Variables
+On Windows:
+Open Environment Variables:
+
+Right-click on "This PC" or "My Computer" > Select Properties > Click Advanced System Settings > Go to the Advanced tab > Click Environment Variables.
+Add JAVA_HOME Variable:
+
+Under "System Variables," click New.
+Enter the following:
+Variable Name: JAVA_HOME
+Variable Value: C:\Program Files\Java\jdk-XX.X.X (JDK installation path)
+Update Path Variable:
+
+In "System Variables," locate and select the Path variable, then click Edit.
+Add a new entry: %JAVA_HOME%\bin.
+Save Changes:
+
+Click OK on all windows.
+
+
+
+ Install Eclipse IDE.
+ Install TestNG plugin in Eclipse.
+ Download the ChromeDriver(version 130) for chrome browser(latest version ).
+ Add the ChromeDriver path to script in the baseclass.
+
+
+2. Project Setup------------------------------
+Create a Maven Project:
+
+In Eclipse, go to File > New > Maven Project.
+Select an archetype .
+Set Group ID and Artifact ID.
+
+create a objectclass package----Contains all object locators and reusable methods to interact with the UI.
+
+create a baseclass inside objectclass package-- Sets up the WebDriver for Chrome and navigates to the Fitpeo website. 
+
+create a test cases package---call the methods inside test cases
+-extends the baseclass to the test case class use entends keyword 
+ 
+create a drivers folder at project level and put chromedriver in this folder
+add all the dependencies to pom.xml file...
+create a TestNg.xml file -set up it....
+
+3 Run Test SCript-------------------------
+now , alt+f5 to update the project --select checkbox (force updates of releases)-click ok.
+now , Right-click testng.xml > Run As > TestNG Suite.
+
